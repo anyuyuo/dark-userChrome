@@ -63,43 +63,10 @@
 /* --- */
 
 /* - Url bar - */
-/* #urlbar-input {
-    color: var(--black) !important;
-}
-#urlbar #urlbar-background {
-    background-color: var(--light-gray) !important;
+#urlbar {
+    border-radius: 5px !important;;
     border: none !important;
-    border-radius: 3px;
-    box-shadow: none !important;
 }
-#urlbar[open="true"] #urlbar-background {
-    background-color: var(--white) !important;
-}
-.urlbarView:not(.megabar) .urlbarView-row:not([type="tip"]):hover,
-.urlbarView.megabar .urlbarView-row:not([type="tip"]):hover > .urlbarView-row-inner {
-    background: none !important;
-}
-.urlbarView #urlbar-results .urlbarView-row .urlbarView-row-inner {
-    transition: color 100ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
-}
-.urlbarView #urlbar-results .urlbarView-row .urlbarView-row-inner:hover {
-    color: var(--black) !important;
-}
-.urlbarView
-    #urlbar-results
-    .urlbarView-row[aria-selected="true"]
-    .urlbarView-row-inner {
-    color: var(--white) !important;
-}
-.urlbarView.megabar .urlbarView-body-inner {
-    border: 0 !important;
-}
-.urlbarView #urlbar-results {
-    color: var(--gray) !important;
-}
-.urlbarView #urlbar-results .urlbarView-row .urlbarView-url {
-    color: var(--moonlight-blue) !important;
-} */
 
 /* Url bar Icons */
 
