@@ -2,11 +2,11 @@ findbar {
     border-color: var(--moonlight-gray-1) !important;
 }
 findbar .findbar-container {
-    background-color: var(--moonlight-gray-2) !important;
+    background-color: var(--dark-gray) !important;
     color: var(--moonlight-gray-7) !important;
 }
 findbar .findbar-closebutton {
-    background-color: var(--moonlight-gray-2) !important;
+    background-color: var(--dark-gray) !important;
 }
 findbar .findbar-closebutton .toolbarbutton-icon {
     fill: var(--moonlight-gray-7) !important;
@@ -49,7 +49,7 @@ findbar .findbar-textbox:focus {
 }
 findbar .findbar-find-previous,
 findbar .findbar-find-next{
-    background-color: var(--moonlight-gray-2) !important;
+    background-color: var(--dark-gray) !important;
     border: none !important;
 }
 

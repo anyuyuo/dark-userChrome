@@ -25,9 +25,9 @@ change (#navigator-toolbox) with your top bar (in this case #nav-bar) and use
 
 /* Change bottom border color */
 #navigator-toolbox {
-    border-color: var(--moonlight-gray-1) !important;
+    border-color: var(--black) !important;
 }
 
 #tabbrowser-tabpanels {
-    background-color: var(--moonlight-gray-2) !important;
+    background-color: var(--dark-gray) !important;
 }

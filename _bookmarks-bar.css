@@ -1,5 +1,5 @@
 #PersonalToolbar {
-    background-color: var(--moonlight-gray-2) !important;
+    background-color: var(--dark-gray) !important;
     padding: 7px !important; 
 }
 #PersonalToolbar toolbarbutton.bookmark-item {

@@ -9,7 +9,7 @@
 }
 
 #navigator-toolbox {
-    background-color: var(--moonlight-gray-2) !important;
+    background-color: var(--dark-gray) !important;
 }
 #TabsToolbar {
     padding: 4px !important;
@@ -20,12 +20,12 @@
 }
 
 .tabbrowser-tab .tab-stack {
-    background: var(--moonlight-gray-4) !important;
-    border: 1px solid var(--moonlight-gray-1) !important;
+    background: var(--black) !important;
+    border: 1px solid var(--black) !important;
     margin: 2px !important;
     border-radius: 3px !important;
-    color: var(--moonlight-gray-10) !important;
-    transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+    color: var(--light-gray) !important;
+    transition: background-color, border-color 250ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 .tabbrowser-tab .tab-background {
     border: none !important;
@@ -35,18 +35,18 @@
     display: none !important;
 }
 .tabbrowser-tab:hover .tab-stack{
-    border-color: var(--moonlight-blue) !important;
-    color: var(--moonlight-gray-10) !important;
+    /* border-color: var(--red) !important; */
+    color: var(--white) !important; 
 }
 .tabbrowser-tab:hover .tab-background {
-    background: var(--moonlight-gray-5) !important;
+    background: var(--middle-gray) !important;
 }
 .tabbrowser-tab[selected] .tab-stack {
-    border-color: var(--moonlight-gray-2) !important;
-    color: var(--moonlight-gray-10) !important;
+    border-color: var(--dark-gray) !important;
+    color: var(--white) !important;
 }
 .tabbrowser-tab[selected] .tab-background {
-    background: var(--moonlight-gray-2) !important;
+    background: var(--dark-gray) !important;
 }
 .tab-background .tab-line {
     display: none;
@@ -55,11 +55,11 @@
     opacity: 1 !important;
 }
 .tabbrowser-tab .close-icon {
-    fill: var(--moonlight-gray-7) !important;
+    fill: var(--light-gray) !important;
     transition: fill 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
 }
 .tabbrowser-tab:hover .close-icon {
-    fill: var(--moonlight-gray-9) !important;
+    fill: var(--dark-red) !important;
     fill-opacity: 0 !important;
 }
 #tabs-newtab-button .toolbarbutton-icon {

@@ -2,7 +2,7 @@
 #bookmarks-view,
 #historyTree,
 [lwt-sidebar] {
-  background-color: var(--moonlight-gray-2) !important;
+  background-color: var(--dark-gray) !important;
   color: var(--moonlight-gray-10) !important;
 }
 
@@ -11,7 +11,7 @@
   border-color: var(--moonlight-gray-1) !important;
 }
 #sidebar-box {
-  background-color: var(--moonlight-gray-2) !important;
+  background-color: var(--dark-gray) !important;
   color: var(--moonlight-gray-10) !important;
 }
 #sidebar-box #sidebar-header {

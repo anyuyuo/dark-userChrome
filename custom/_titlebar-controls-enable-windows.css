@@ -33,5 +33,5 @@
 }
 
 .titlebar-buttonbox-container .titlebar-button.titlebar-close:hover .toolbarbutton-icon {
-    stroke: var(--moonlight-dark-red);
+    stroke: var(--dark-red);
 }
